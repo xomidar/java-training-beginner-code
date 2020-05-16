@@ -1,0 +1,8 @@
+= Java Training - Beginner
+
+[NOTE]
+--
+This repository only contains *Java Training - Beginner* classes example code.
+
+Other relevant training materials is available at https://github.com/xomidar/java-training[Java Training] repository and http://training.rezaulhasan.me[Training Website].
+--
