@@ -6,3 +6,15 @@ This repository only contains *Java Training - Beginner* classes example code.
 
 Other relevant training materials is available at https://github.com/xomidar/java-training[Java Training] repository and http://training.rezaulhasan.me[Training Website].
 --
+
+== Class wise code details
+
+[WARNING]
+All classes example code is available in respective class wise git branch.
+Please switch to respective class branch to see details code.
+Commit message will give the hint of code progress.
+
+Details curriculum is available at http://training.rezaulhasan.me[Java Beginner Curriculum]
+
+* xref:classes/class-1.adoc[Class 1 - Java Basic].
+Code branch name `1-java-basic`

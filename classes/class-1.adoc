@@ -1,0 +1,22 @@
+[#class3]
+== Class 3 - Java Basic
+
+. Generate basic java project `hello-world`.
+.. Expression, Statement, Block.
+.. `String[] args` parameter in main method.
+
+. Variable.
+
+. Primitive data type.
+.. Integer.
+.. Floating Point.
+.. Character.
+.. Boolean.
+
+. Primitive data type conversion.
+.. Implicit conversion.
+.. Explicit conversion.
+
+. `var` keyword.
+
+. Primitive data type Array.
