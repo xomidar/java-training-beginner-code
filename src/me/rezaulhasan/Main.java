@@ -9,6 +9,9 @@ public class Main {
         int viewsCounts4 = 123_456_789;
         long viewsCounts8 = 5_123_456_789L;
 
+        float price4 = 21.00F;
+        double salary8 = 20_000.00;
+
         System.out.println(viewsCounts4);
     }
 }
