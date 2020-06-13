@@ -12,6 +12,9 @@ public class Main {
         float price4 = 21.00F;
         double salary8 = 20_000.00;
 
+        char letter2 = 'A';
+        boolean isActive = false;
+
         System.out.println(viewsCounts4);
     }
 }
