@@ -3,6 +3,9 @@ package me.rezaulhasan;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        int riceDish = 30;
+
+        System.out.println(riceDish);
     }
 }
