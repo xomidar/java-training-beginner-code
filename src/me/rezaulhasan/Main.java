@@ -4,10 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        float price4 = 21.00F;
-        System.out.println(price4);
+        long viewsCounts8 = 5_123_456_789L;
+        System.out.println(viewsCounts8);
 
-        double price8 = price4;
-        System.out.println(price8);
+        int viewsCounts4 = (int)viewsCounts8;
+        System.out.println(viewsCounts4);
+
     }
 }
