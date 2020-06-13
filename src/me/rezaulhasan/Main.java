@@ -10,7 +10,8 @@ public class Main {
 
         employeeIds[0] = 1;
 
-        System.out.println(Arrays.toString(employeeIds));
+        System.out.println(employeeIds.length);
 
+        System.out.println(Arrays.toString(employeeIds));
     }
 }
