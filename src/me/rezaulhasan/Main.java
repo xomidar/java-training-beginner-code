@@ -6,9 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] employeeIds = new int[310];
-
-        employeeIds[0] = 1;
+        int[] employeeIds =  {1,312};
 
         System.out.println(employeeIds.length);
 
