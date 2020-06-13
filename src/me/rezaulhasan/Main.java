@@ -1,7 +1,5 @@
 package me.rezaulhasan;
 
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +11,14 @@ public class Main {
         int officeHour = workHour + lunchHour;
 
         System.out.println(officeHour);
+
+
+        int weekDays = 5 ;
+
+        int remainingWeekDays = weekDays--;
+
+        System.out.println(weekDays);
+        System.out.println(remainingWeekDays);
 
     }
 }
