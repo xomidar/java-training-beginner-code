@@ -5,16 +5,16 @@ public class Main {
     public static void main(String[] args) {
 
         byte age1 = 30;
-        short employeeCount2 = 200;
-        int viewsCounts4 = 123_456_789;
-        long viewsCounts8 = 5_123_456_789L;
+        System.out.println(age1);
 
-        float price4 = 21.00F;
-        double salary8 = 20_000.00;
+        short age2 = age1;
+        System.out.println(age2);
 
-        char letter2 = 'A';
-        boolean isActive = false;
+        int age4 = age2;
+        System.out.println(age4);
 
-        System.out.println(viewsCounts4);
+        long age8 = age4;
+        System.out.println(age8);
+
     }
 }
