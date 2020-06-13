@@ -12,6 +12,6 @@ public class Main {
 
         System.out.println(numbers.length);
 
-        System.out.println(Arrays.toString(numbers));
+        System.out.println(Arrays.deepToString(numbers));
     }
 }
