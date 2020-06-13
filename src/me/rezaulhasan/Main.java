@@ -6,6 +6,12 @@ public class Main {
 
         int riceDish = 30;
 
+        int ricePlate;
+
+        ricePlate = riceDish;
+
         System.out.println(riceDish);
+
+        System.out.println(ricePlate);
     }
 }
