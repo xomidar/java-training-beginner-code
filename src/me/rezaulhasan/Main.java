@@ -1,5 +1,7 @@
 package me.rezaulhasan;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class Main {
 
         employeeIds[0] = 1;
 
-        System.out.println(employeeIds);
+        System.out.println(Arrays.toString(employeeIds));
 
     }
 }
