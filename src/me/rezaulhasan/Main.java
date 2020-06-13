@@ -1,12 +1,14 @@
 package me.rezaulhasan;
 
-import me.rezaulhasan.homeappliance.Fan;
-
 public class Main {
 
     public static void main(String[] args) {
 
-        Fan fan = new Fan();
+        int myAge = 20;
 
+        int herAge = 18;
+
+
+        System.out.println(myAge == herAge);
     }
 }
