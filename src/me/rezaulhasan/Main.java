@@ -4,17 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        byte age1 = 30;
-        System.out.println(age1);
+        float price4 = 21.00F;
+        System.out.println(price4);
 
-        short age2 = age1;
-        System.out.println(age2);
-
-        int age4 = age2;
-        System.out.println(age4);
-
-        long age8 = age4;
-        System.out.println(age8);
-
+        double price8 = price4;
+        System.out.println(price8);
     }
 }
