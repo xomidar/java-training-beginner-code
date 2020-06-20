@@ -11,12 +11,20 @@ public class Main {
         System.out.println("Enter name: ");
         String name = "";
 
+/*
         while (!name.equalsIgnoreCase("exit")) {
 
             name = scanner.next();
             System.out.println("Hello " + name);
 
         }
+*/
+
+        do{
+            name = scanner.next();
+            System.out.println("Hello " + name);
+
+        }while(!name.equalsIgnoreCase("exit"));
 
     }
 }
