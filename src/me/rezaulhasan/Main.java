@@ -7,9 +7,9 @@ public class Main {
 
         int[] employeeIds = {10, 20, 30, 40, 50};
 
-        for (int i = 0; i < employeeIds.length; i++) {
+        for (int employeeId : employeeIds) {
 
-            System.out.println("Employee ID: " + employeeIds[i]);
+            System.out.println("Employee ID: " + employeeId);
 
         }
 
