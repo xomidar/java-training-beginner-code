@@ -11,8 +11,23 @@ public class Main {
         System.out.print("What is today's temperature: ");
         int temperature = scanner.nextInt();
 
-        String message = temperature > 30 ? "It's hot!" : "It's cold!";
+        boolean isWarm = temperature > 30;
+        boolean isCold = temperature < 20;
+        boolean isNormal = temperature > 20 && temperature <= 30;
 
-        System.out.println(message);
+
+        if (isWarm) {
+
+            System.out.println("It's very hot!");
+
+        } else if (isCold) {
+
+            System.out.println("It's very cold!");
+
+        } else if (isNormal) {
+
+            System.out.println("It's good day.");
+
+        }
     }
 }
