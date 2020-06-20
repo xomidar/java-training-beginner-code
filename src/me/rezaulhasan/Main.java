@@ -1,7 +1,5 @@
 package me.rezaulhasan;
 
-import me.rezaulhasan.homeappliance.Fan;
-
 import java.util.Scanner;
 
 public class Main {
@@ -10,35 +8,21 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("What is today's temperature: ");
-        int temperature = scanner.nextInt();
-
-        boolean isWarm = temperature > 30;
-        boolean isCold = temperature < 20;
-
-        Fan fan = new Fan();
-
-        if (isWarm) {
-
-            System.out.println("It's very hot!");
-
-            fan.start();
-
-            System.out.print("How much you want to accelerate your fan: ");
-            int speed = scanner.nextInt();
-
-            fan.accelerate(speed);
+        System.out.print("Your role: ");
+        String role = scanner.next();
 
 
-        } else if (isCold) {
+        if (role == "admin") {
 
-            System.out.println("It's very cold!");
+            System.out.println("Your are " + role);
 
-            fan.stop();
+        } else if (role == "user") {
+
+            System.out.println("Your are " + role);
 
         } else {
 
-            System.out.println("It's good day.");
+            System.out.println("Your are unknown");
 
         }
 
