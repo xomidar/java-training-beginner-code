@@ -5,12 +5,18 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int[] employeeIds = {10, 20, 30, 40, 50};
+        for (int i = 9; i > 0; i--) {
 
-        for (int employeeId : employeeIds) {
+            System.out.println("Hello World " + i);
 
-            System.out.println("Employee ID: " + employeeId);
+        }
 
+        int i = 9;
+
+        while(i > 0){
+
+            System.out.println("Hello World " + i);
+            i--;
         }
 
     }
