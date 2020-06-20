@@ -12,6 +12,7 @@ public class Main {
         String role = scanner.next();
 
 
+/*
         if (role.equalsIgnoreCase("admin")) {
 
             System.out.println("Your are " + role);
@@ -23,6 +24,19 @@ public class Main {
         } else {
 
             System.out.println("Your are unknown");
+
+        }
+*/
+
+        switch (role) {
+            case "admin":
+                System.out.println("Your are admin");
+                break;
+            case "user":
+                System.out.println("Your are user");
+                break;
+            default:
+                System.out.println("Your are unknown");
 
         }
 
