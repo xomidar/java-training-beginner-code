@@ -15,5 +15,13 @@ public class Main {
             System.out.println("Hello World " + i);
 
         }
+
+
+        for (int i = 9; i > 0; i--) {
+
+            System.out.println("Hello World" + i);
+
+        }4.3 Forloop reverse
+
     }
 }
