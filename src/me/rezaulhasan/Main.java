@@ -12,11 +12,11 @@ public class Main {
         String role = scanner.next();
 
 
-        if (role == "admin") {
+        if (role.equals("admin")) {
 
             System.out.println("Your are " + role);
 
-        } else if (role == "user") {
+        } else if (role.equals("user")) {
 
             System.out.println("Your are " + role);
 
