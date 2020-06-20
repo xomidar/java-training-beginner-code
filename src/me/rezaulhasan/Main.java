@@ -8,36 +8,36 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Your role: ");
-        String role = scanner.next();
+        System.out.print("What is today's temperature: ");
+        int temperature = scanner.nextInt();
+
+        boolean isWarm = temperature > 30;
+        boolean isCold = temperature < 20;
 
 
-/*
-        if (role.equalsIgnoreCase("admin")) {
+        if (isWarm) {
 
-            System.out.println("Your are " + role);
+            System.out.println("It's very hot!");
 
-        } else if (role.equalsIgnoreCase("user")) {
+        } else if (isCold) {
 
-            System.out.println("Your are " + role);
+            System.out.println("It's very cold!");
 
         } else {
 
-            System.out.println("Your are unknown");
+            System.out.println("It's good day.");
 
         }
-*/
 
-        switch (role) {
-            case "admin":
+        switch (true) {
+            case isWarm:
                 System.out.println("Your are admin");
                 break;
-            case "user":
+            case isCold:
                 System.out.println("Your are user");
                 break;
             default:
                 System.out.println("Your are unknown");
-
         }
 
     }
