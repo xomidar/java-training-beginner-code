@@ -1,22 +1,21 @@
 package me.rezaulhasan;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
 
-        for (int i = 9; i > 0; i--) {
+        System.out.println("Enter name: ");
+        String name = "";
 
-            System.out.println("Hello World " + i);
+        while (!name.equalsIgnoreCase("exit")) {
 
-        }
+            name = scanner.next();
+            System.out.println("Hello " + name);
 
-        int i = 9;
-
-        while(i > 0){
-
-            System.out.println("Hello World " + i);
-            i--;
         }
 
     }
